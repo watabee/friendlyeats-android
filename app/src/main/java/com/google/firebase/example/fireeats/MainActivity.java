@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity implements
     }
 
     private void initFirestore() {
-        // TODO(developer): Implement
+        mFirestore = FirebaseFirestore.getInstance();
     }
 
     private void initRecyclerView() {
